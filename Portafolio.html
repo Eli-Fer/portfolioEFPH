@@ -12,13 +12,29 @@
 <body>
     <header>
         <h1>Eliezer Fernando Pérez Hernández</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Acerca de mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Links de Actividades
+                    </a>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <section id="about">
         <h2>Sobre mí</h2>
@@ -30,20 +46,16 @@
 
         <h2>Proyectos</h2>
         <div class="project">
-            <h3>Desarrollo de pagina web</h3>
-            <p>Proyecto de impulso para negocio Mictlán</p>
+          <button id="BButton" onclick="window.location.href='https://github.com/Equipo-Quijda/hackaton-deportes.git'">Desarrollo de página web Deportlan</button>
+            <p>Desarrollo Front-End de Pagina web, Utilizando HMTL, CSS y JavaScript para hackaton</p>
         </div>
         <div class="project">
-            <h3>Desarrollo Front de Pagina web</h3>
+            <button id="BButton"  onclick="window.location.href='https://github.com/Eli-Fer/logica-programacion-2.git'">Ejercicio de Logica GENERATION</button>
             <p>Utilizando HMTL, CSS y JavaScript</p>
         </div>
         <div class="project">
-            <h3>Desarrollo de pagina web</h3>
+            <button id="BButton" onclick="window.location.href='https://github.com/Equipo-Quijda/Proyecto-Integrador-Mictl-n.git'">Desarrollo de pagina web Mictlán</button>
             <p>Proyecto de impulso para negocio Mictlán</p>
-        </div>
-        <div class="project">
-            <h4>Desarrollo Front de Pagina web</h4>
-            <p>Utilizando HMTL, CSS y JavaScript</p>
         </div>
 
 
@@ -51,7 +63,7 @@
     </section>
     <section id="contact">
         <h2>Contacto</h2>
-        <p>Puedes contactarme en: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+        <p>Puedes contactarme en: <a href=""> Github</a></p>
     </section>
     <footer>
         <p>&copy; 2025 Mi Portafolio</p>
